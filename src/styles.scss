@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import 'assets/fonts/scss/modules/_fonts.scss';
+
+* {
+    box-sizing: border-box;
+    font-family: 'abel', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #968D8E;
+    font-size: 48px;
+    margin: 16px 0 16px 0;
+}
+p {
+    font-size: 19px;
+}
