@@ -1,0 +1,92 @@
+header nav {
+    color: black;
+    display: inline-block;
+    float: right;
+    position: relative;
+    text-align: inline;
+}
+header li {
+    display: inline-block;
+    list-style: none;
+    margin: 1.5rem .5rem 0 .5rem;
+    position: relative;
+}
+header li a {
+    color: black;
+}
+.summary-section {
+    display: inline-block;
+    margin-top: 16px;
+    width: 100%;
+}
+.summary img {
+    border: .1rem solid black;
+    border-radius: 50%;
+    display: block;
+    height: 25rem;
+    margin: auto;
+    position: relative;
+}    
+.summary h1 {
+    clear: left;
+    padding: 16px 0;
+    text-align: center;
+}
+.summary p {
+    float: right;
+    padding: 0 10px; 
+    text-align: center;
+}
+article {
+    margin: auto;
+    padding: 16px;
+    width: 90%;
+}
+article p {
+    text-align: center;
+}    
+
+@media only screen and (min-width: 960px) {
+    .summary-section {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: auto;
+        padding: 16px 0;
+        width: 800px;
+    }
+    .summary-text {
+        width: 400px;
+    }
+}
+    @media only screen and (min-width: 1200px) {
+    .summary {
+        background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/2GDSQDYMKX.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 550px;
+        justify-content: flex-end;
+    }
+    .summary:after {
+        background: white;
+        border-radius: 50%; 
+        content: "";
+        height: 70px;
+        position: absolute;
+        top: 640px;
+        width: 105%;
+    }
+    .summary-section {
+        align-items: center;
+        margin: 0;
+        padding: 16px 0 40px;
+        width: 65%;
+    }
+    .summary-text {
+        width: 50%;
+    }
+    .summary h1 {
+        padding: 0 0 16px;
+    }
+}
+

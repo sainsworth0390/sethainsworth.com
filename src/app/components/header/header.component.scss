@@ -1,0 +1,21 @@
+header {
+    align-items: center;
+    background-color: #968D8E;
+    border-bottom: .1rem solid black;
+    display: flex;
+    height: 7.5rem;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+h1 {
+    color: white;
+    font-size: 48px;
+    padding: 0;
+    text-align: center;
+    
+    @media (min-width: 960px) {
+        font-size: 78px;
+    }
+}
